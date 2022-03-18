@@ -1,0 +1,72 @@
+{
+  "_from": "direction.js",
+  "_id": "direction.js@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-+L1MGUmThVjuuRh76GaM1q1hP7Y5oDWbAJlqiOjikLNlSishphwm3vrm17UBc+ZV3Y/kM7T8FC3uge8GCdxyvA==",
+  "_location": "/direction.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "direction.js",
+    "name": "direction.js",
+    "escapedName": "direction.js",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/direction.js/-/direction.js-1.0.5.tgz",
+  "_shasum": "a1f609822472b87d2a1f43d5fbc63256319b2026",
+  "_spec": "direction.js",
+  "_where": "/Users/siddharthnand/Desktop/DirectionJS",
+  "author": {
+    "name": "Siddharth Nand",
+    "email": "snand233@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sidnand/direction.js/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "2D and 3D vectors library",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=7.8.0"
+  },
+  "homepage": "https://github.com/sidnand/direction.js#readme",
+  "keywords": [
+    "vectors",
+    "javascript",
+    "library",
+    "math",
+    "vectors 2d",
+    "vectors 3d",
+    "vector math"
+  ],
+  "license": "MIT",
+  "main": "lib/Direction.js",
+  "name": "direction.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidnand/direction.js.git"
+  },
+  "scripts": {
+    "lint": "yarn eslint",
+    "test": "mocha"
+  },
+  "unpkg": "lib/Direction.min.js",
+  "version": "1.0.5"
+}
